@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="thai_vowel_viewSize_btnLetters">55dp</dimen>
+    <dimen name="thai_vowel_textSize_btnLetters">16dp</dimen>
+    <dimen name="thai_vowel_margin_btnLetters">5dp</dimen>
+
+    <dimen name="thai_phoneme_viewSize_btnLetters">65dp</dimen>
+    <dimen name="thai_phoneme_textSize_btnLetters">20dp</dimen>
+    <dimen name="thai_phoneme_margin_btnLetters">5dp</dimen>
+
+    <dimen name="margin_btnLetters">5dp</dimen>
+
+    <dimen name="textSize_ShowMouth">70dp</dimen>
+    <dimen name="textSize_ShowPronun">50dp</dimen>
+    <dimen name="flagSize_ShowMouth">70dp</dimen>
+    <dimen name="video_height">160dp</dimen>
+    <!--
+    Because the window insets on round devices are larger than 15dp, this padding only applies
+    to square screens.
+    -->
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+
+    <!--
+    This padding applies to both square and round screens. The total padding between the buttons
+    and the window insets is box_inset_layout_padding (above variable) on square screens and
+    inner_frame_layout_padding (below variable) on round screens.
+    -->
+    <dimen name="inner_frame_layout_padding">5dp</dimen>
+</resources>

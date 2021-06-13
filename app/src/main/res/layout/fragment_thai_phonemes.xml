@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThaiPhonemesFragment">
+
+    <GridLayout
+        android:id="@+id/group_btnPhonemes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="6"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+        <android.widget.Button
+            style="@style/ButtonView_Letters"
+            android:layout_height="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:layout_width="@dimen/thai_phoneme_viewSize_btnLetters"
+            android:textSize="@dimen/thai_phoneme_textSize_btnLetters"
+            android:layout_margin="@dimen/thai_phoneme_margin_btnLetters" />
+
+    </GridLayout>
+
+</FrameLayout>

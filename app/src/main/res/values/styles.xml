@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextView_ColoredBackground" parent="Widget.AppCompat.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:fontFamily">sans-serif</item>
+
+    </style>
+
+    <style name="TextView_NoBackground" parent="Widget.AppCompat.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonView_MatchParentWidth" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:background">@drawable/button_border_1</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="ButtonView_Letters" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_marginLeft">@dimen/margin_btnLetters</item>
+        <item name="android:layout_marginRight">@dimen/margin_btnLetters</item>
+        <item name="android:layout_marginTop">@dimen/margin_btnLetters</item>
+        <item name="android:layout_marginBottom">@dimen/margin_btnLetters</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:background">@drawable/button_border_1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonView_Function" parent="ButtonView_Letters">
+        <item name="android:background">@drawable/button_border_2</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+</resources>

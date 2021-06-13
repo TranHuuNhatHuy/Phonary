@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".ShowOralMovement">
+
+    <RelativeLayout
+        android:id="@+id/group_upper"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            style="@style/TextView_ColoredBackground"
+            android:textSize="40dp"
+            android:text="Vowels"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/img_flag"
+            android:layout_below="@id/tv_type"
+            android:layout_centerHorizontal="true"
+            android:layout_width="@dimen/flagSize_ShowMouth"
+            android:layout_height="@dimen/flagSize_ShowMouth"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_thailand"/>
+        
+        <LinearLayout
+            android:id="@+id/group_tv_show"
+            android:layout_below="@id/img_flag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/tv_letter_display"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                style="@style/TextView_ColoredBackground"
+                android:textSize="@dimen/textSize_ShowMouth"
+                android:text="A"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_pronun_display"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                style="@style/TextView_ColoredBackground"
+                android:textSize="@dimen/textSize_ShowPronun"
+                android:text="/ei/"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/group_lower"
+        android:layout_below="@+id/group_upper"
+        android:layout_marginBottom="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_videos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            style="@style/TextView_ColoredBackground"
+            android:textSize="25dp"
+            android:text="Oral movement record"
+            android:textStyle="bold" />
+
+        <VideoView
+            android:id="@+id/vid_realRecord"
+            android:layout_below="@id/tv_videos"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="@dimen/video_height" />
+
+        <TextView
+            android:id="@+id/tv_lips"
+            android:layout_below="@+id/vid_realRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            style="@style/TextView_ColoredBackground"
+            android:textSize="25dp"
+            android:text="Oral movement illustration"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/anim_lips"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/video_height"
+            android:layout_below="@id/tv_lips"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button_border_1"
+            android:gravity="center"
+            android:text="AVAILABLE SOON!"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/group_button"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <android.widget.Button
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Go back"
+                style="@style/ButtonView_Function"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <android.widget.Button
+                android:id="@+id/btnPractice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Practice"
+                style="@style/ButtonView_Function" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

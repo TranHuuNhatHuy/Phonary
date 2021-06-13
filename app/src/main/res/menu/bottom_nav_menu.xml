@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_vowels"
+        android:icon="@drawable/ic_thailand"
+        android:title="Vowels" />
+
+    <item
+        android:id="@+id/nav_phonemes"
+        android:icon="@drawable/ic_japan"
+        android:title="Phonemes" />
+
+</menu>

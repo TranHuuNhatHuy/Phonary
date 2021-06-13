@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/frag_letters">
+
+    <fragment
+        android:id="@+id/frag_letters"
+        android:name="com.example.phonary.ThaiVowelsFragment"
+        android:label="Letters"
+        tools:layout="@layout/fragment_thai_vowels" />
+
+    <fragment
+        android:id="@+id/frag_phonemes"
+        android:name="com.example.phonary.ThaiPhonemesFragment"
+        android:label="Phonemes"
+        tools:layout="@layout/fragment_thai_phonemes" />
+</navigation>
